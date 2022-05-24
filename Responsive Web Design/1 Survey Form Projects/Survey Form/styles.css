@@ -8,6 +8,10 @@ body {
 }
 form#survey-form {
     text-align: center;
+    background-color: rgba(0,0,255,0.47);
+}
+.form { 
+    padding: 27px;
 }
 h1#title {
     color: rgba(0,127, 255, 0.95);
