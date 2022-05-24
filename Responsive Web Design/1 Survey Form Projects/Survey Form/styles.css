@@ -10,6 +10,14 @@ form#survey-form {
     text-align: center;
     background-color: rgba(0,0,255,0.47);
 }
+
+header#survey-header { 
+    padding-top: 20px;
+}
+
+p#description { 
+    
+}
 .form { 
     padding: 27px;
 }
