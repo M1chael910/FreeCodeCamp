@@ -6,6 +6,9 @@ body {
     height: 100vh;
     margin: 0;
 }
+form#survey-form {
+    text-align: center;
+}
 h1#title {
     color: rgba(0,127, 255, 0.95);
 }
