@@ -1,0 +1,10 @@
+body {
+    background-image: url("https://www.efinancialcareers.co.uk/binaries/content/gallery/efinancial-careers/articles/2020/07/coding.jpg");
+}
+
+h1#title { 
+    text-align: center;
+}
+p#description { 
+    text-align: center;
+}
