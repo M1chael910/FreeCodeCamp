@@ -15,14 +15,15 @@
         platform
       </p>
     </header>
-    <div class="form">
-      <form id="survey-form">
-          <label id="name-label"for="name">bing bong</label>
-          <input id="name" type="text" required />
-          <input id="email" type="email" required />
-          <input id="number" type="number" required min="10" max="150"/>
-          
-        </form>
-    </div>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name</label>
+        <input id="name" type="text" required />
+        <label id="email-label" for="email">Email</label>
+        <input id="email" type="email" required />
+        <label id="number-label" for="number">Age</label>
+        <input id="number" type="number" min="10" max="150" />
+      </fieldset>
+    </form>
   </body>
 </html>
