@@ -16,14 +16,29 @@
       </p>
     </header>
     <form id="survey-form">
-      <fieldset>
+      <fieldset id="personal-info">
         <label id="name-label" for="name">Name</label>
-        <input id="name" type="text" required />
+        <input id="name" type="text" placeholder="Enter your name"required />
         <label id="email-label" for="email">Email</label>
-        <input id="email" type="email" required />
+        <input id="email" type="email" placeholder="Enter your email" required />
         <label id="number-label" for="number">Age</label>
-        <input id="number" type="number" min="10" max="150" />
+        <input id="number" type="number" min="10" max="150" placeholder="Enter your age"/>
+        <label id="current-role-label">Current Role</label>
+        <select name="current-role" id="dropdown">
+          <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="learner">Full Time Learner</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select>
+      </fieldset id="survey-info">
+        
+
+      <fieldset>
+
       </fieldset>
+
     </form>
   </body>
 </html>

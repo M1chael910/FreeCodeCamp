@@ -1,5 +1,12 @@
 #page-header { 
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+    width: 100%;
+    height: 100vh;
 }
 
 #page-header > h1#title{ 
@@ -17,22 +24,30 @@
     text-align: center;
 }
 
-
-
-body {
-    background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
-    width: 100%;
-    height: 100vh;
-}
-
-.form { 
-    padding: 27px;
-}
-
 form#survey-form {
     text-align: center;
-    background-color: rgba(0,0,255,0.47);
 }
+
+fieldset#personal-info > input, select { 
+    width: 100%;
+    padding: 12px 20px;
+    margin: 21px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+fieldset#personal-info{ 
+    display: inline-block;
+    width: 500px;
+    border: 0;
+    padding-top: 30px;
+    padding: 30;
+    text-align: left;
+}
+
+
 
 
 
