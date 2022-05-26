@@ -29,7 +29,9 @@ form#survey-form {
     text-align: center;
 }
 
-fieldset#personal-info > input, select { 
+/* Personal Info Section */
+
+.form-group > input, select {
     width: 100%;
     padding: 12px 20px;
     margin: 21px 0;
@@ -39,7 +41,8 @@ fieldset#personal-info > input, select {
     box-sizing: border-box;
 }
 
-fieldset#personal-info{ 
+
+.form-group { 
     display: inline-block;
     width: 500px;
     border: 0;
@@ -47,6 +50,9 @@ fieldset#personal-info{
     padding: 30;
     text-align: left;
 }
+
+/* Survey Section */
+
 
 
 
