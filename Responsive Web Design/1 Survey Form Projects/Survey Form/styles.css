@@ -44,6 +44,7 @@ form#survey-form {
 
 .form-group { 
     display: inline-block;
+    /* Set the width to a fixed percentage to avoid problems */
     width: 80%;
     border: 0;
     padding-top: 10px;
