@@ -1,59 +1,65 @@
-#page-header { 
-    padding-top: 20px;
-    padding-bottom: 20px;
+#page-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-#page-header > h1#title{ 
-    font-size: 35px;
-    color: rgba(0,127, 255, 0.95);
-    font-weight: bold;
-    text-align: center;
+#page-header > h1#title {
+  font-size: 35px;
+  color: rgba(0, 127, 255, 0.95);
+  font-weight: bold;
+  text-align: center;
 }
 
-#page-header > p#description{ 
-    font-size: 22px;
-    color: rgba(0,127, 255, 0.95);
-    font-style: italic;
-    font-weight: normal;
-    text-align: center;
+#page-header > p#description {
+  font-size: 22px;
+  color: rgba(0, 127, 255, 0.95);
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
 }
 
 body {
-    background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
-    width: 100%;
-    height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 0, 0.5),
+    rgba(0, 0, 255, 0.5)
+  );
+  width: 100%;
+  height: 100vh;
 }
 
-
 form#survey-form {
-    text-align: center;
+  text-align: center;
 }
 
 /* Personal Info Section */
 
-.form-group > input, select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 21px 0;
-    display: block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+.form-group > input,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 21px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-
-.form-group { 
-    display: inline-block;
-    /* Set the width to a fixed percentage to avoid problems */
-    width: 80%;
-    border: 0;
-    padding-top: 10px;
-    padding: 30;
-    text-align: left;
+.form-group {
+  display: inline-block;
+  /* Set the width to a fixed percentage to avoid problems */
+  width: 80%;
+  border: 0;
+  padding-top: 10px;
+  padding: 30;
+  text-align: left;
 }
 
 /* Survey Section */
 
-
-
-
+fieldset#recomendation-feedback {
+  border: 0px;
+}
+input#submit { 
+    
+}

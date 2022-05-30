@@ -47,43 +47,49 @@
       <div class="form-group">
         <p>Would you recommend FreeCodeCamp to a friend?</p>
         <fieldset id="recomendation-feedback">
-          <input
-            type="radio"
-            id="definitely"
-            value="definitely"
-            name="recomendation-feedback"
-          />
-          <label for="definitely">Definitely</label>
-          <input
-            id="maybe"
-            type="radio"
-            value="maybe"
-            name="recomendation-feedback"
-          />
-          <label for="maybe">Maybe</label>
-          <input
-            type="radio"
-            id="not-sure"
-            value="not-sure"
-            name="recomendation-feedback"
-          />
-          <label for="not-sure">Not sure</label>
+          <div>
+            <input
+              type="radio"
+              id="definitely"
+              value="definitely"
+              name="recomendation-feedback"
+            />
+            <label for="definitely">Definitely</label>
+          </div>
+          <div>
+            <input
+              id="maybe"
+              type="radio"
+              value="maybe"
+              name="recomendation-feedback"
+            />
+            <label for="maybe">Maybe</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="not-sure"
+              value="not-sure"
+              name="recomendation-feedback"
+            />
+            <label for="not-sure">Not sure</label>
+          </div>
         </fieldset>
-
-        <br />
         <br />
         <br />
         <label for="dropdown"
           >What is your favorite feature at FreeCodeCamp?</label
         >
         <select name="current-role" id="dropdown">
-          <option disabled selected value>Favorite FreeCodeCamp feature</option>
-          <option value="student">Student</option>
-          <option value="job">Full Time Job</option>
-          <option value="learner">Full Time Learner</option>
-          <option value="preferNo">Prefer not to say</option>
-          <option value="other">Other</option>
+          <option disabled selected value>Favorite feature</option>
+          <option value="challanges">Challanges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="open-source">Open Source</option>
         </select>
+      </div>
+      <div class="submit-button">
+        <input type="submit" name="submit" id="submit" />
       </div>
     </form>
   </body>
