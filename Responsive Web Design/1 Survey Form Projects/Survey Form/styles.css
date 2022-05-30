@@ -44,16 +44,14 @@ form#survey-form {
 
 .form-group { 
     display: inline-block;
-    width: 500px;
+    width: 80%;
     border: 0;
-    padding-top: 30px;
+    padding-top: 10px;
     padding: 30;
     text-align: left;
 }
 
 /* Survey Section */
-
-
 
 
 
